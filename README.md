@@ -1,2 +1,2 @@
 # netflix-clone
-Netflix Clone with React JS, Tailwind, Axios, Hooks, The Movie DB API and Firebase for backend
+Netflix Clone with React JS, Tailwind, Axios, Hooks, The Movie DB API and Firebase
