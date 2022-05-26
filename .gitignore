@@ -8,6 +8,8 @@
 #API Key
 Requests.js
 
+#Firebase Backend
+firebase.js
 # testing
 /coverage
 
@@ -15,6 +17,7 @@ Requests.js
 /build
 
 # misc
+.env
 .DS_Store
 .env.local
 .env.development.local
