@@ -21,12 +21,12 @@ const SavedShows = () => {
     }
 
     useEffect(()=>{
-        onSnapshot(doc(db, 'user', `${user?.email}`), (doc)=>{
+        onSnapshot(doc(db, 'users', `${user?.email}`), (doc)=>{
             setMovies(doc.data()?.savedShows)
         })
     },[user?.email]);
 
-    const movieRef = doc(db, 'user', `${user?.email}`)
+    const movieRef = doc(db, 'users', `${user?.email}`)
     const deleteShow = async(passedID) =>{
         try {
             const result = movies.filter((item) => item.id !== passedID)
